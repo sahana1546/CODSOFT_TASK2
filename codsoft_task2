@@ -1,0 +1,32 @@
+# while True:
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        first = int(input("Enter your first number: "))
+        second = int(input("Enter your second number: "))
+        print("Result =", first + second)
+
+    elif choice == 2:
+        first = int(input("Enter your first number: "))
+        second = int(input("Enter your second number: "))
+        print("Result =", first - second)
+
+    elif choice == 3:
+        first = int(input("Enter your first number: "))
+        second = int(input("Enter your second number: "))
+        print("Result =", first * second)
+
+    elif choice == 4:
+        first = int(input("Enter your first number: "))
+        second = int(input("Enter your second number: "))
+        print("Result =", first / second)
+
+    elif choice == 5:
+        print("Thank you for using the calculator")
+        break
